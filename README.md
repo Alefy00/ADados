@@ -109,4 +109,4 @@ O script de API realiza as seguintes operações:
 
 ## Conclusão
 
-Este projeto exemplifica dois cenários comuns de automação e integração: a coleta automatizada de dados de um site e a comunicação com uma API REST. Ambos os testes demonstram boas práticas de uso de bibliotecas de Python para automação e manipulação de dados.
+Este projeto exemplifica dois cenários comuns de automação e integração: a coleta automatizada de dados de um site e a comunicação com uma API REST.
