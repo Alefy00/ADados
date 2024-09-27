@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 import time
 
-# Configuração do WebDriver (ajuste o caminho do chromedriver se necessário)
+# Configuração do WebDriver 
 driver = webdriver.Chrome()
 
 # Acessar o site das Casas Bahia
@@ -17,7 +17,7 @@ time.sleep(5)
 def encontrar_produtos_dinamico():
     produtos = driver.find_elements(By.CSS_SELECTOR, "div")
     
-    # Vamos procurar por elementos que tenham títulos e preços dentro deles
+    # procurar por elementos que tenham títulos e preços dentro deles
     dados = []
     
     for produto in produtos:
@@ -43,7 +43,7 @@ def encontrar_produtos_dinamico():
     
     return dados
 
-# Coletar os dados da primeira página
+# Coletar os dados da página
 dados = encontrar_produtos_dinamico()
 
 # Fechar o navegador
